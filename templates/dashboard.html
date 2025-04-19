@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .welcome {
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome, {{ username }}!</h1>
+            <p>You have successfully logged in to the secure area.</p>
+        </div>
+
+        <h2>What happened?</h2>
+        <p>If you logged in through the insecure page using SQL injection, you bypassed the authentication without
+            knowing the actual credentials.</p>
+        <p>If you logged in through the secure page or used valid credentials, proper authentication was performed.</p>
+
+        <a href="/logout">Logout</a>
+    </div>
+</body>
+
+</html>
