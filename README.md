@@ -1,4 +1,3 @@
-```markdown
 # SQL Injection Demo - Flask Application
 
 This project demonstrates a simple Flask web application with both secure and insecure login implementations. The purpose of this app is to showcase the risks of SQL injection vulnerabilities and how to mitigate them using secure coding practices.
