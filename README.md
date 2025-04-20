@@ -16,7 +16,7 @@ Follow these steps to set up and run the application:
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone [https://github.com/your-repo/sqlinjectiondemo.git](https://github.com/aniJani/sqlInjectionDemo)
+git clone https://github.com/aniJani/sqlInjectionDemo
 cd sqlInjectionDemo
 ```
 
