@@ -37,7 +37,7 @@ Activate the virtual environment:
   ```
 
 ### 3. Install Dependencies
-Install the required dependencies:
+The only package required is flask which is included in the requirements.txt. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
